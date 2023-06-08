@@ -1,0 +1,133 @@
+body {
+	background-image:url("https://www.azcentral.com/gcdn/presto/2022/01/25/PPHX/55389fe2-9a5b-4950-b71e-a34e719cb8e2-Classroom_iStockPhoto_GettyImages.jpg?crop=5621,3162,x0,y0&width=3200&height=1801&format=pjpg&auto=webp");
+	background-size: cover;
+}
+.calculator{
+	border: 3px solid black;
+    margin: auto;	
+    width: 500px;
+	height: 700px;
+	margin-top: 125px;
+	border-radius: 6px;
+	background-color: #575757;
+}
+.result{
+	border:2px solid black;
+	width: 400px;
+	margin: auto;
+	height: 150px;
+	margin-top: 30px;
+	background-color: #D0C6C6;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	font-family: Calculator, serif;
+	font-size: 50px;
+	text-align: right;
+}
+.number-btn{
+	border: 2px solid black;
+	height: 75px;
+	width: 75px;
+	border-radius: 5px;
+	background-color: #404040;
+	color: white;
+	font-family: Georgia;
+	font-size: 30px;
+	margin: 13px;
+}
+.top-btn{
+	border: 2px solid black;
+	height: 75px;
+	width: 75px;
+	border-radius: 5px;
+	background-color: #404040;
+	color: white;
+	font-family: Georgia;
+	font-size: 30px;
+	margin: 13px;
+	margin-left: 45px;
+}
+.zero-btn{
+	border: 2px solid black;
+	height: 75px;
+	width: 75px;
+	border-radius: 5px;
+	background-color: #404040;
+	color: white;
+	font-family: Georgia;
+	font-size: 30px;
+	margin: 13px;
+	margin-left: 150px;
+}
+.equal-btn{
+	border: 2px solid black;
+	height: 75px;
+	width: 75px;
+	border-radius: 5px;
+	background-color: #404040;
+	color: white;
+	font-family: Georgia;
+	font-size: 30px;
+	margin: 13px;
+	margin-left: 145px;
+}
+.plus-btn{
+	border: 2px solid black;
+	height: 75px;
+	width: 75px;
+	border-radius: 5px;
+	background-color: #404040;
+	color: white;
+	font-family: Georgia;
+	font-size: 30px;
+	margin: 13px;
+	margin-left: 40px;
+}
+.minus-btn{
+	border: 2px solid black;
+	height: 75px;
+	width: 75px;
+	border-radius: 5px;
+	background-color: #404040;
+	color: white;
+	font-family: Georgia;
+	font-size: 30px;
+	margin: 13px;
+	margin-left: 40px;
+}
+.multiplication-btn{
+	border: 2px solid black;
+	height: 75px;
+	width: 75px;
+	border-radius: 5px;
+	background-color: #404040;
+	color: white;
+	font-family: Georgia;
+	font-size: 30px;
+	margin: 13px;
+	margin-left: 40px;
+}
+.division-btn{
+	border: 2px solid black;
+	height: 75px;
+	width: 75px;
+	border-radius: 5px;
+	background-color: #404040;
+	color: white;
+	font-family: Georgia;
+	font-size: 30px;
+	margin: 13px;
+	margin-left: 250px;
+}
+.clear-btn{
+	border: 2px solid black;
+	height: 75px;
+	width: 75px;
+	border-radius: 5px;
+	background-color: #404040;
+	color: white;
+	font-family: Georgia;
+	font-size: 30px;
+	margin: 13px;
+	margin-left: 45px;
+}

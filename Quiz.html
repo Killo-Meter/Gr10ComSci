@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+<div class="home-box" id="start-btn">
+	<h3 class="text"> Instruction: <br> To complete this quiz you must click the answer you belive to be right then the submit button to go to the next question.
+	After all answering all of the question you will recive a score out of 8. <br> Are you ready?</h3>
+	<p>Total number of questions: <span class="total-questions">8</span></p>
+	<button type="button" class="btn">Start Quiz</button>
+	</div>
+	
+	<div class="quiz-container hide" id="quiz">
+    <div class="quiz-header">
+      <h2 id="question">Question Text</h2>
+      <ul>
+        <li>
+		<div class="answer-bor">
+          <input type="radio" name="answer" id="a" class="answer">
+          <label for="a" id="a_text">Answer</label>
+		  </div>
+        </li>
+        <li>
+		<div class="answer-bor">
+          <input type="radio" name="answer" id="b" class="answer">
+          <label for="b" id="b_text">Answer</label>
+		</div>
+        </li>
+        <li>
+		<div class="answer-bor">
+          <input type="radio" name="answer" id="c" class="answer">
+          <label for="c" id="c_text">Answer</label>
+		</div>
+        </li>
+        <li>
+		<div class="answer-bor">
+          <input type="radio" name="answer" id="d" class="answer">
+          <label for="d" id="d_text">Answer</label>
+		</div>
+        </li>
+      </ul>
+    </div>
+    <button id="submit">Submit</button>
+<script src="quiz.js"></script>
+	</div>
+</body>
+</html>

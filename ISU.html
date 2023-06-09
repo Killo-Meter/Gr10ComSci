@@ -12,25 +12,25 @@
 			<div type="text "class="result" id="sum"> </div>
 		</form>
 			<button class="clear-btn" onclick="clearCalculator()">C</button>
-			<button class="division-btn" onclick="modOutput('÷')">÷</button>
+			<button class="division-btn" onclick="operatorPress('÷')">÷</button>
 			<br>
-			<button class="top-btn" onclick="modOutput(7)">7</button>
-			<button class="number-btn" onclick="modOutput(8)">8</button>
-			<button class="number-btn" onclick="modOutput(9)">9</button>
-			<button class="multiplication-btn" onclick="modOutput('x')">x</button>
+			<button class="top-btn" onclick="numberPress(7)">7</button>
+			<button class="number-btn" onclick="numberPress(8)">8</button>
+			<button class="number-btn" onclick="numberPress(9)">9</button>
+			<button class="multiplication-btn" onclick="operatorPress('x')">x</button>
 			<br>
-			<button class="top-btn" onclick="modOutput(4)">4</button>
-			<button class="number-btn" onclick="modOutput(5)">5</button>
-			<button class="number-btn" onclick="modOutput(6)">6</button>
-			<button class="minus-btn" onclick="modOutput('-')">-</button>
+			<button class="top-btn" onclick="numberPress(4)">4</button>
+			<button class="number-btn" onclick="numberPress(5)">5</button>
+			<button class="number-btn" onclick="numberPress(6)">6</button>
+			<button class="minus-btn" onclick="operatorPress('-')">-</button>
 			<br>
-			<button class="top-btn" onclick="modOutput(1)">1</button>
-			<button class="number-btn" onclick="modOutput(2)">2</button>
-			<button class="number-btn" onclick="modOutput(3)">3</button> 
-			<button class="plus-btn" onclick="modOutput('+')">+</button>
+			<button class="top-btn" onclick="numberPress(1)">1</button>
+			<button class="number-btn" onclick="numberPress(2)">2</button>
+			<button class="number-btn" onclick="numberPress(3)">3</button> 
+			<button class="plus-btn" onclick="operatorPress('+')">+</button>
 			<br>
-			<button class="zero-btn" onclick=" modOutput(0)">0</button>
-			<button class="equal-btn" id="equal" onlcick="calculate()">=</button>
+			<button class="zero-btn" onclick=" numberPress(0)">0</button>
+			<button class="equal-btn" id="equal" onclick="calculate()">=</button>
 	</div>
 <script src="ISU.js"></script>
 </body>
